@@ -1,16 +1,4 @@
-li::marker {
-    color:red;
-    content: "😊";
-  }
-  
-  textarea::placeholder {
-    color:lightblue;
-    
-  }
-  
-  
-  
-  * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,7 +10,7 @@ li::marker {
   }
   
   body {
-    color:rgb(20, 81, 45)
+    color:rgb(55, 108, 120)
     font-family; sans-serif;
   
     padding: 0 30px;
@@ -36,7 +24,7 @@ li::marker {
   
   .bg:after {
     content: '';
-    background-image: url( );
+    background-image: url('/assets/image-gallery/un.jpg');
     background-size: cover;
     background-repeat: repeat-y;
     opacity: .2;
@@ -55,7 +43,7 @@ li::marker {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #056f77;
+    background-color: #401F00;
     z-index: -2;
   }
   
@@ -138,7 +126,42 @@ li::marker {
   
   .nav-button:hover {
     background-color: white;
-    color: #003c40;
+    color: #401F00;
+  }
+  
+  @media (max-width: 800px) {
+    p {
+      columns: 1;
+    }
+  
+    nav {
+      justify-content: flex-end;
+      border-bottom: none;
+    }
+  
+    #nav-toggler {
+      display: block;
+    }
+  
+    .top-nav {
+      /* display: none; */
+      position: absolute;
+      top: 60px;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: #401F00;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 40px;
+      gap: 60px;
+      font-size: 30px;
+    }
+  
+    .nav-button {
+      background-color: white;
+      color: #67879f;
+    }
   }
   
   
