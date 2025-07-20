@@ -44,7 +44,7 @@
     background-color: white;
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 500px) {
     .gallery-items {
       flex-direction: row;
     }
