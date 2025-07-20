@@ -1,14 +1,14 @@
 .img-wrapper1, 
 .img-wrapper2,
 .img-wrapper3 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    display: inline-grid;
+    flex-wrap: flex-wrap ;
+    gap: 40px;
     padding: 40px 0 60px;
   }
   
   .item {
-    overflow: hidden;
+    overflow: scroll;
     border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 10px;
     padding: 20px;
@@ -16,10 +16,9 @@
     max-width: 400px;
     box-shadow: 0 0 20px black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     align-items: center;
-    transition: all .3s ease-in-out;
   }
   
   .item img {
