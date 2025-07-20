@@ -10,10 +10,10 @@
   }
   
   body {
-    color:rgb(55, 108, 120)
-    font-family; sans-serif;
+    color:rgb(55, 108, 120),
+    font-family: sans-serif;
   
-    padding: 0 30px;
+    padding: 30px;
     position: relative;
   
   }
