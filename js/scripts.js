@@ -21,4 +21,8 @@ window.addEventListener('resize', (event) => {
   } else if (event.target.innerWidth < 800 && expanded === 'false') {
     navigationList.style.display = 'none';
   }
+ 
+  window.alert("welcome to the prosper tattoos website");
+alert("welcome to the prospe tattoos website");
+
 })
