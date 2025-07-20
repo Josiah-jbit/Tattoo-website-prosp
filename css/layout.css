@@ -10,13 +10,12 @@
   }
   
   body {
-    color:rgb(55, 108, 120),
-    font-family: sans-serif;
+    color:rgb(55, 108, 120);
+    font-family: san-serif;
   
     padding: 30px;
     position: relative;
-  
-  }
+   }
   
   header {
     display: flex;
