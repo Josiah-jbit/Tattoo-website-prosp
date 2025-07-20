@@ -1,4 +1,6 @@
-.gallery-items {
+.image-wrapper1, 
+.image-wrapper2,
+.image-wrapper3 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

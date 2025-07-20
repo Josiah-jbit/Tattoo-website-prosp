@@ -22,7 +22,7 @@ li::marker {
   }
   
   body {
-    color:rgb(73, 147, 151)
+    color:rgb(73, 147, 151);
     font-family: sans-serif;
   
     padding: 0 30px;
