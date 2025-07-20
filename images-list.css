@@ -1,6 +1,6 @@
-.image-wrapper1, 
-.image-wrapper2,
-.image-wrapper3 {
+.img-wrapper1, 
+.img-wrapper2,
+.img-wrapper3 {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
